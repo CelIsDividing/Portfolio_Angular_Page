@@ -78,7 +78,7 @@ import { Project } from '../../models/project.model';
                 <div class="project-modal-toolbar">
                   <div class="project-links">
                     @if (project.downloadUrl) {
-                      <a [href]="project.downloadUrl" class="project-link" target="_blank" rel="noopener">Download</a>
+                      <a [href]="project.downloadUrl" class="project-link" target="_blank" rel="noopener">Preview</a>
                     }
                     @if (project.githubUrl) {
                       <a [href]="project.githubUrl" class="project-link" target="_blank" rel="noopener">GitHub</a>
